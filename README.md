@@ -17,7 +17,7 @@ Installation
 
 Clone the repository
 
-git clone https://github.com/username/Face-Detection-Program.git
+git clone https://github.com/annuaicoder/Face-Detection-Program.git
 cd Face-Detection-Program
 
 install the libraries
