@@ -20,14 +20,6 @@ Clone the repository
 git clone https://github.com/annuaicoder/Face-Detection-Program.git
 cd Face-Detection-Program
 
-# Install the libraries
-
-pip install opencv-python numpy pyaudio
-
-# Install using shortcut
-
-pip install -r requirements.txt
-
 
 # Create a Virtual Environment
 
