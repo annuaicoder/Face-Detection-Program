@@ -1,4 +1,4 @@
-Face-Detection-Program
+# Face-Detection-Program
 This program is designed to enhance security and monitoring systems by detecting faces in real-time. When a face is detected, it plays an alarm sound and returns an alert in the command prompt. The program utilizes computer vision and machine learning techniques to accurately identify faces.
 
 Features
@@ -20,12 +20,16 @@ Clone the repository
 git clone https://github.com/annuaicoder/Face-Detection-Program.git
 cd Face-Detection-Program
 
-install the libraries
+# Install the libraries
 
 pip install opencv-python numpy pyaudio
 
+# Install using shortcut
 
-Create a Virtual Environment
+pip install -r requirements.txt
+
+
+# Create a Virtual Environment
 
 python -m venv env
 cd env
@@ -37,8 +41,18 @@ Move out of the virtual env
 
 cd ..
 
-Running the script
+# Running the script
 
-python agent.py
+# Make setup script executable
+chmod +x setup.sh
 
-Now you have a face detection program... Enjoy!!!
+# run setup script and execute the program
+
+./setup.sh
+
+
+# Youtube Tutorial 
+
+I posted a youtube video for this face detection script
+
+https://www.youtube.com/watch?v=pSpzfo1YTaI
